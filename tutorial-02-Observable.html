@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tutorial-02-Observable</title>
+
+</head>
+
+<body>
+    <p>First name: <input data-bind="value: firstName" /></p>
+    <p>Last name: <input data-bind="value: lastName" /></p>
+
+    <script src="node_modules/knockout/build/output/knockout-latest.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        function AppViewModel() {
+            this.firstName = ko.observable("Chanchai");
+            this.lastName = ko.observable("Thaiyanon");
+        }
+
+        // Activates knockout.js
+        ko.applyBindings(new AppViewModel());
+    </script>
+</body>
+
+</html>

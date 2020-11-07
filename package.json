@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bugtonchanchai/tutorial-knockout-dev01#readme",
   "dependencies": {
+    "jquery": "^3.5.1",
     "knockout": "^3.5.1"
   }
 }
