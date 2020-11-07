@@ -1,0 +1,22 @@
+{
+  "name": "tutorial-knockout-dev01",
+  "version": "1.0.0",
+  "description": "study knockout js platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugtonchanchai/tutorial-knockout-dev01.git"
+  },
+  "author": "bugton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugtonchanchai/tutorial-knockout-dev01/issues"
+  },
+  "homepage": "https://github.com/bugtonchanchai/tutorial-knockout-dev01#readme",
+  "dependencies": {
+    "knockout": "^3.5.1"
+  }
+}
